@@ -1,0 +1,110 @@
+
+###https://power.u-coupon.cn/oapi/hello/me
+
+用户登录：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/userLogin
+
+获取用户手机号：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getUserPhone
+
+
+获取用户信息：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getUserInfo
+
+获取待支付充电账单：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getOrderPay
+
+
+查询设备信息：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getDeviceInfo
+
+报告设备端口：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/reportDevicePort
+
+获取干扰码：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getJamCode
+
+获取系统时间：urlencoded 返回以秒为单位的10位数字时间戳
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getSystemTime
+
+支付押金：urlencoded
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/deposit/payDeposit
+
+返回押金支付结果：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/deposit/returnDeposit
+
+查询押金支付结果：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/deposit/queryDepositPay
+
+新建充电账单：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/order/newPowerOrder
+
+取消充电账单：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/order/cancelPowerOrder
+
+支付充电账单：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/order/payPowerOrder
+
+查询支付结果：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/order/queryOrderPay
+
+新建电币充值：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/newPmoneyCharge
+
+查询电币充值结果：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/queryPmoneyPay
+
+获取充电记录：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/getPmoneyCharge
+
+新建电币赠送：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/newPmoneyGift
+
+获取电币赠送记录：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/getPmoneyGift
+
+#####################################
+管理端
+#####################################
+
+管理员登录：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/userLogin
+
+获取管理员手机号：
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/getManagerPhone
+
+获取管理员信息： getManagerInfo
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/getManagerInfo
+
+设置用户姓名： reportManagerName
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/reportManagerName
+
+添加设备： addDevice
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/addDevice
+
+设置设备别名： reportDeviceName
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/reportDeviceName
+
+删除设备： deleteDevice
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/deleteDevice
+
+获取设备列表： getDeviceList
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/getDeviceList
+
+设置设备属性： setDeviceValue
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/setDeviceValue
+
+移交设备： transferDevice
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/transferDevice
+
+添加用户至黑名单： addBlackUser
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/addBlackUser
+
+从黑名单删除用户： deleteBlackUser
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/deleteBlackUser
+
+获取黑名单列表： getBlackUser
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/getBlackUser
+
+获取充电账单记录： getOrderAll 		startDate/endDate 格式：yyyyMMddHHmmss
+https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/getOrderAll
