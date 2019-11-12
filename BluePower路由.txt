@@ -7,13 +7,26 @@ https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/userLogin
 获取用户手机号：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getUserPhone
 
-
 获取用户信息：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getUserInfo
+
+报告用户姓名：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/reportUserName
+
+报告用户性别：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/reportUserGender
+
+报告用户工种：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/reportUserProfession
 
 获取待支付充电账单：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getOrderPay
 
+获取用户充电记录：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getUserOrder
+
+获取所有工种信息：
+https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/getProfessionList
 
 查询设备信息：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getDeviceInfo
@@ -21,19 +34,19 @@ https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getDeviceInfo
 报告设备端口：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/reportDevicePort
 
-获取干扰码：urlencoded
+##获取干扰码：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getJamCode
 
-获取系统时间：urlencoded 返回以秒为单位的10位数字时间戳
+##获取系统时间：urlencoded 返回以秒为单位的10位数字时间戳
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/device/getSystemTime
 
-支付押金：urlencoded
+##支付押金：urlencoded
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/deposit/payDeposit
 
-返回押金支付结果：
+##返回押金支付结果：
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/deposit/returnDeposit
 
-查询押金支付结果：
+##查询押金支付结果：
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/deposit/queryDepositPay
 
 新建充电账单：
@@ -51,10 +64,10 @@ https://power.u-coupon.cn/oapi/bluepower_user/1_0/order/queryOrderPay
 新建电币充值：
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/newPmoneyCharge
 
-查询电币充值结果：
+查询电币充值支付结果：
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/queryPmoneyPay
 
-获取充电记录：
+获取电币充值记录：
 https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/getPmoneyCharge
 
 新建电币赠送：
@@ -68,7 +81,7 @@ https://power.u-coupon.cn/oapi/bluepower_user/1_0/pmoney/getPmoneyGift
 #####################################
 
 管理员登录：
-https://power.u-coupon.cn/oapi/bluepower_user/1_0/user/userLogin
+https://power.u-coupon.cn/oapi/bluepower_manager/1_0/manager/managerLogin
 
 获取管理员手机号：
 https://power.u-coupon.cn/oapi//bluepower_manager/1_0/manager/getManagerPhone
